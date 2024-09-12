@@ -19,6 +19,7 @@ buttons.forEach(button => {
 
 })
 
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    getElementById('body').style.display = 'none';
-}
+var scale = 'scale(1)';
+document.body.style.webkitTransform =  scale;    // Chrome, Opera, Safari
+ document.body.style.msTransform =   scale;       // IE 9
+ document.body.style.transform = scale;     // General
