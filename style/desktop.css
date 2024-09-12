@@ -55,11 +55,11 @@
   .navbg{
     padding-top: 30px;
     height: 4rem;
-    width: 105%;
+    width: 120%;
     right: 0%;
     top: 0%;
+    margin-right: -0.5rem;
     position: absolute;
-    padding-left: 10px;
     padding-bottom: 10px;
     backdrop-filter: blur(3px);
     background-color: rgba(41, 41, 41, 0.362);
