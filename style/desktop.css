@@ -53,6 +53,7 @@
   }
   
   .navbg{
+    margin: -0.5rem;
     padding-top: 30px;
     height: 4rem;
     width: 120%;
