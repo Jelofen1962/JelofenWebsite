@@ -10,7 +10,7 @@
   
   @font-face {
     font-family: 'lev';
-    src: url('../assets/fonts/lev.ttc') format('truetype');
+    src: url('../assets/fonts/lev.ttf') format('truetype');
   }
   
   @font-face {
@@ -36,7 +36,9 @@
     50% { border-color: rgb(44, 174, 255) }
   }
   
-  
+  ::-webkit-scrollbar{
+    display: none;
+  }
   
   html {
     scroll-behavior: smooth;
@@ -66,7 +68,13 @@
     z-index: 0;
   }
   
-  
+  .menu{
+    display: none;
+  }
+
+  .img-button{
+    display: none;
+  }
   
   .head{
   
@@ -98,7 +106,7 @@
   .navbutton{
     
     float: right;
-    margin-top: 1.8rem;
+    margin-top: 1.rem;
     margin-right: 10px;
     z-index: 1;
     font-family: lev;
@@ -139,7 +147,7 @@
     text-shadow: 0 0 20px rgba(0, 0, 0, 0.456);
     letter-spacing : 0.02em;
     padding-bottom: 1rem;
-    margin-left: -6rem;
+    font-size: 4rem;
   }
   
   .tittle:hover{
@@ -517,6 +525,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.5em;
+    transform: translateX(-5rem);
   }
   
   .up {
@@ -769,6 +778,7 @@
 
 .Copyright{
   font-family: jet;
+
   color: #808080;
 }
 
