@@ -54,7 +54,8 @@
     background-image: url('../assets/photos/homebg.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: 100%;
+    background-size: 150%;
+    background-position: 50% 0%;
   }
   
   .navbg{
